@@ -1,8 +1,6 @@
-![Alt - foto](G:\repozit\rsschool-cv\assets\img\img_1469.jpg)
+![Alt - foto](G:\repozit\rsschool-cv\assets\img_1469.jpg)
 
 # **Dzmitry Dzemidavets**
-
-====
 
 ### _Contacs_
 
@@ -15,8 +13,6 @@
 - #### 2008-2012: Minsk state polytechnic college. Specialty: Installation and operation of electrical.
 - #### 2012-2016: Belarusian state university of informatics and radioelectronics. Specialty: Elektronik security systems.
 
-===
-
 ### Skills
 
 '''
@@ -25,12 +21,9 @@ $b = 3;
 $c = $a + $b;
 '''
 
-===
-
 ### Level of english
 
 - #### Beginner
-  ===
 
 ### Projects
 
