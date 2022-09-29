@@ -1,4 +1,4 @@
-![Alt - foto](G:\repozit\rsschool-cv\assets\img_1469.jpg)
+![Alt - foto](rsschool-cv\assets\img_1469.jpg)
 
 # **Dzmitry Dzemidavets**
 
