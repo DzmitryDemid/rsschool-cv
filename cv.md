@@ -1,4 +1,4 @@
-![Alt - foto](.\rsschool-cv\assets\img\img_1469.jpg)
+![Alt - foto](./assets/img/IMG_1469.JPG)
 
 # **Dzmitry Dzemidavets**
 
