@@ -2,3 +2,20 @@
   border: 5px solid #000;
   background-color: rgb(151, 201, 85);
 }
+.container {
+  background-color: blue;
+}
+@keyframes skil {
+  0% {
+    color: blue;
+  }
+  50% {
+    color: black;
+  }
+  100% {
+    color: blue;
+  }
+}
+.skil {
+  animation: skil 3s infinite;
+}
