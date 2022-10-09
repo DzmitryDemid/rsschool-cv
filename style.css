@@ -2,9 +2,7 @@
   border: 5px solid #000;
   background-color: rgb(151, 201, 85);
 }
-.container {
-  background-color: blue;
-}
+
 @keyframes skil {
   0% {
     color: blue;
@@ -18,4 +16,102 @@
 }
 .skil {
   animation: skil 3s infinite;
+}
+body {
+  background-color: #f1f1f1;
+  color: #0f141e;
+  font-family: "Times New Roman", Times, serif;
+}
+.ava {
+  width: 200px;
+  border-radius: 35%;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+}
+.contanier {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 30px;
+}
+.mysos {
+  padding: 15px;
+  background: rgb(190, 189, 189);
+}
+.bg-yellow {
+  background: #fff9dc;
+}
+.bg-green {
+  background: #e5ffe7;
+}
+.bg-red {
+  background: #ffe5e5;
+}
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+.card p {
+  margin-bottom: 10px;
+}
+.list {
+  padding: 0 20px;
+}
+.list li {
+  color: #86898f;
+  margin-bottom: 10px;
+}
+.educ {
+  list-style: square;
+  margin-bottom: 10px;
+}
+.educ li {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+.form-grup label {
+  display: block;
+  font-size: 14px;
+  color: #202329;
+}
+.form-grup input,
+.form-grup textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid rgb(237, 228, 228);
+  color: rgb(23, 21, 21);
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+.row > .form-grup {
+  width: 50%;
+  margin-right: 20px;
+}
+.info {
+  display: flex;
+  margin-bottom: 15px;
+}
+.infot {
+  margin-left: 40px;
+}
+.info p {
+  margin-top: 4px;
+}
+.btn {
+  background: #111;
+  padding: 15px 20 px;
+  color: #fff;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+.conact {
+  margin-left: 15px;
 }
