@@ -4,93 +4,114 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My sv</title>
+    <title>cv</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="container">
-      <div class="info">
-        <img src="assets\img\IMG_1469.JPG" alt="my foto" class="ava" />
-        <div class="infot">
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#summary" class="nav-link">Summary</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#code" class="nav-link">Code</a>
+            </li>
+            <li class="nav-item">
+              <a href="#courses" class="nav-link">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#languages" class="nav-link">English</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <section class="section" id="profile">
           <h1>Dzmitry Dzemidavets</h1>
+        </section>
+        <section class="section" id="contacts">
+          <h2>Contacts</h2>
+        </section>
+        <section class="section" id="summary">
+          <h2>Summary</h2>
           <p>
-            A little bit about yourself. Cheerful guy, with interest I study
-            something new for myself. Personally, I love snowboarding.
+            I like programming.A little bit about yourself. Cheerful guy, with
+            interest I study something new for myself. Personally, I love
+            snowboarding.
           </p>
-        </div>
+        </section>
+        <section class="section" id="skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>Wed-development: <span>HTML, CSS, JavaScript</span></li>
+            <li>Version control: <span>GIT, Github</span></li>
+            <li>Graphics: <span>Figma</span></li>
+          </ul>
+        </section>
+        <section class="section" id="code">
+          <h2>Code</h2>
+          <code>
+            &it;<span>C#</span>&gt; int a = 1; int b =2; int result = a+b;
+          </code>
+        </section>
+        <section class="section" id="courses">
+          <h2>Courses</h2>
+          <ul>
+            <li>Hexlet - <span>JavaScript for beginner</span></li>
+            <li>Youtube - <span>HTML for beginer</span></li>
+            <li>RS-Shool - <span> Front End for beginer</span></li>
+          </ul>
+        </section>
+        <section class="section" id="projects">
+          <h2>Projects</h2>
+          <a href="https://DzmitryDemid.github.io/rsschool-cv/cv"
+            >This is my fiers sv</a
+          >
+        </section>
+        <section class="section" id="education">
+          <h2>Education</h2>
+          <ul>
+            <li>
+              2008-2012: Minsk state polytechnic college. Specialty:
+              Installation and operation of electrical.
+            </li>
+            <li>
+              2012-2016: Belarusian state university of informatics and
+              radioelectronics. Specialty: Elektronik security systems.
+            </li>
+          </ul>
+        </section>
+        <section class="section" id="languages">
+          <h2>Languages</h2>
+          <p>Level of english:<span>Beginner</span></p>
+        </section>
       </div>
-      <div class="card bg-yellow">
-        <h2>Contacs</h2>
-        <ul class="list">
-          <li>
-            <a href="https://www.instagram.com/dmitriy_demid" target="_blank"
-              >instagram</a
-            >
-          </li>
-          <li>Discord: bzmitry#2533</li>
-          <li>Address: Poland, Poznan</li>
-        </ul>
-      </div>
-
-      <div class="card bg-green">
-        <h2>Education</h2>
-        <ul class="educ">
-          <li>
-            2008-2012: Minsk state polytechnic college. Specialty: Installation
-            and operation of electrical.
-          </li>
-          <li>
-            2012-2016: Belarusian state university of informatics and
-            radioelectronics. Specialty: Elektronik security systems.
-          </li>
-        </ul>
-      </div>
-
-      <div class="card bg-red">
-        <h2>Level of english</h2>
-        <p>Beginner</p>
-      </div>
-
-      <div class="card bg-yellow">
-        <h2 class="skil">Skills</h2>
-        <code>
-          &it;<span>C#</span>&gt;int a = 1; int b =2; int result = a+b;
-        </code>
-      </div>
-      <div class="card bg-green">
-        <h2>Projects</h2>
-        <a href="https://DzmitryDemid.github.io/rsschool-cv/cv"
-          >This is my fiers sv</a
-        >
-      </div>
-      <div class="conact">
-        <h2>Сontact with me</h2>
-        <form>
-          <div class="row">
-            <div class="form-grup">
-              <label
-                >Enter your name
-                <input type="text" placeholder="name" />
-              </label>
-            </div>
-            <div class="form-grup">
-              <label
-                >Enter your email
-                <input type="text" placeholder="email" />
-              </label>
-            </div>
-          </div>
-          <div class="form-grup">
-            <label for="text">Enter message</label>
-            <textarea
-              rows="5"
-              role="30"
-              placeholder="enter your message"
-            ></textarea>
-          </div>
-          <input class="btn" type="submit" value="Contact" />
-        </form>
-      </div>
-    </div>
+    </main>
+    <footer class="footer">
+      <div class="container"></div>
+    </footer>
   </body>
 </html>

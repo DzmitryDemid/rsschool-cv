@@ -1,117 +1,66 @@
-.ferst {
-  border: 5px solid #000;
-  background-color: rgb(151, 201, 85);
+@font-face {
+  font-family: "Josefin Sans", sans-serif;
+  src: url(assets/fonts/JosefinSans-Italic-VariableFont_wght.ttf);
 }
-
-@keyframes skil {
-  0% {
-    color: blue;
-  }
-  50% {
-    color: black;
-  }
-  100% {
-    color: blue;
-  }
+* {
+  box-sizing: border-box;
 }
-.skil {
-  animation: skil 3s infinite;
+.header {
+  border: 1px solid red;
+}
+.main {
+  border: 1px solid red;
+}
+.footer {
+  border: 1px solid red;
 }
 body {
-  background-color: #f1f1f1;
-  color: #0f141e;
-  font-family: "Times New Roman", Times, serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-.ava {
-  width: 200px;
-  border-radius: 35%;
-  box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
 }
-.contanier {
-  max-width: 750px;
-  margin: auto;
-  padding-top: 30px;
-}
-.mysos {
-  padding: 15px;
-  background: rgb(190, 189, 189);
-}
-.bg-yellow {
-  background: #fff9dc;
-}
-.bg-green {
-  background: #e5ffe7;
-}
-.bg-red {
-  background: #ffe5e5;
-}
-.card {
-  padding: 15px 20px;
-  margin-bottom: 20px;
-  border-radius: 20px;
-}
-.card p {
-  margin-bottom: 10px;
-}
-.list {
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
   padding: 0 20px;
+  line-height: 50px;
+  text-decoration: none;
+  color: aqua;
 }
-.list li {
-  color: #86898f;
-  margin-bottom: 10px;
+html {
+  scroll-behavior: smooth;
 }
-.educ {
-  list-style: square;
-  margin-bottom: 10px;
-}
-.educ li {
-  margin-bottom: 10px;
-  padding-bottom: 5px;
-  border-bottom: 1px solid #ccc;
-}
-.form-grup label {
-  display: block;
-  font-size: 14px;
-  color: #202329;
-}
-.form-grup input,
-.form-grup textarea {
-  width: 100%;
-  box-sizing: border-box;
-  border: none;
-  background: transparent;
-  border-bottom: 1px solid rgb(237, 228, 228);
-  color: rgb(23, 21, 21);
-  padding: 15px 0 10px;
-  outline: none;
-  font-family: inherit;
-}
-.row {
-  display: flex;
-  margin-bottom: 20px;
-}
-.row > .form-grup {
-  width: 50%;
-  margin-right: 20px;
-}
-.info {
-  display: flex;
-  margin-bottom: 15px;
-}
-.infot {
-  margin-left: 40px;
-}
-.info p {
-  margin-top: 4px;
-}
-.btn {
-  background: #111;
-  padding: 15px 20 px;
-  color: #fff;
-  border: none;
-  font-family: inherit;
+.nav-link {
+  text-decoration: none;
+  color: aqua;
+  font-size: 20px;
+  transition: 0.3s;
   cursor: pointer;
 }
-.conact {
-  margin-left: 15px;
+.nav-item a {
+  color: #829985;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+.nav-item a:hover {
+  color: #4d2323;
+}
+.nav-item {
+  padding-right: 10px;
+}
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.section {
+  width: 50%;
 }
